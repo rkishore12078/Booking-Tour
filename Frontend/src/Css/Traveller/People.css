@@ -1,0 +1,43 @@
+.people{
+    width:80%;
+    margin:30px auto;
+    background-color: mediumaquamarine;
+    border-radius: 20px;
+}
+
+
+.people-form-body{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding:40px;
+    gap:30px;
+    flex-wrap: wrap;
+}
+
+.people-card{
+    background-color:aqua;
+    border-radius: 20px;
+    padding:20px;
+    width: 350px ;
+}
+
+.people-inputs{
+    width:95%;
+    border-bottom:1px solid black ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: aqua;
+    margin: 10px;
+}
+
+.people-inputs:hover{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.people-button{
+    margin:30px;
+}

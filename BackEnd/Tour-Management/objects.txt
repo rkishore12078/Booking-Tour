@@ -1,0 +1,155 @@
+{
+  "agentId": 1,
+  "packageName": "MesmerisingKerala",
+  "noOfDays": 2,
+  "location": "cochinAlapuzha",
+  "maxCount": 20,
+  "iteneraries": [
+    {
+      "day": 1,
+      "spots": [
+        {
+          "spotId": 3
+        },
+{
+          "spotId": 4
+        }
+      ]
+    },
+{
+      "day": 2,
+      "spots": [
+        {
+          "spotId": 7
+        },
+{
+          "spotId": 9
+        }
+      ]
+    }
+  ],
+  "hotels": [
+    {
+      "hotelName": "Hotel1",
+      "location": "cochin",
+      "rooms": [
+        {
+          "stayingDays": 0,
+          "checkInDate": "2023-08-02T16:47:15.590Z",
+          "checkOutDate": "2023-08-02T16:47:15.590Z",
+          "price": 200
+        }
+      ]
+    }
+  ],
+  "foods": [
+    {
+      "foodType": "veg",
+      "price": 500
+    }
+  ],
+  "transports": [
+    {
+      "vehicleType": "car",
+      "driverName": "mathan",
+      "driverNumber": "8888888888",
+      "availableFrom": "2023-08-02T16:47:15.590Z",
+      "availableTo": "2023-08-02T16:47:15.590Z"
+    }
+  ]
+}
+select * from hotels
+select * from Packages
+select * from Rooms
+select * from Transports
+select * from PackageSpots
+
+Booking:
+
+{
+  "peopleCount": 2,
+  "packageId": 1,
+  "location": "Kerala",
+  "bookingDate": "2023-08-01T16:33:16.035Z",
+  "departureDate": "2023-08-02T16:33:16.035Z",
+  "returnDate": "2023-08-05T16:33:16.035Z",
+  "price": 10000,
+  "vehicleId": 2,
+  "bookedHotels": [
+    {
+      "hotelId": 1,
+      "roomId": 2,
+      "spotId": 2
+    },
+    {
+      "hotelId": 1,
+      "roomId": 3,
+      "spotId": 2
+    }
+  ],
+  "peoples": [
+    {
+      "name": "Mathan",
+      "dateOfBirth": "2023-08-01T16:33:16.035Z",
+      "gender": "Male",
+      "phone": "4567654567",
+      "address": "Kovilpatti"
+    },
+    {
+      "name": "Kombaiya",
+      "dateOfBirth": "2023-08-01T16:33:16.035Z",
+      "gender": "Male",
+      "phone": "4567654567",
+      "address": "Tirunelveli"
+    }
+  ]
+}
+
+Feedback:
+{
+  "packageId": 1,
+  "travellerName": "Kishore",
+  "phone": "9876544321223",
+  "email": "kishore@gmail.com",
+  "communication": 3,
+  "organisation": 5,
+  "coOrdination": 3,
+  "meals": 5,
+  "accamodation": 2,
+  "transport": 4,
+  "overall": 4,
+  "howDoYouHear": "media",
+  "description": "fjkjkdjkjfjfdj"
+}
+
+TravelAgent:
+{
+  "users": {
+    "email": "kishore@gmail.com"
+  },
+  "name": "Kishore",
+  "dateOfBirth": "2002-08-04T20:03:23.071Z",
+  "gender": "Male",
+  "phone": "9789728800",
+  "address": "Kallakurichi",
+  "imagePath": "string",
+  "lastLogin": "2023-08-04T20:03:23.071Z",
+  "password": "1234"
+}-Komb48,-Sant48
+
+Traveller:
+{
+  "users": {
+    "email": "Mathan@gmail.com"
+  },
+  "name": "Mathan",
+  "dateOfBirth": "2002-01-06T20:30:19.386Z",
+  "gender": "Male",
+  "phone": "867675676",
+  "address": "Kovilpatti",
+  "emergencyContact": "876765656454",
+  "imagePath": "string",
+  "travelPreference": "Adventure",
+  "dietryPreference": "Veg",
+  "password": "3434"
+}-Math61

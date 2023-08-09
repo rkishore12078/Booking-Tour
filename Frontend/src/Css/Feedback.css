@@ -1,0 +1,17 @@
+.fill{
+    color: yellow;
+    
+}
+
+.unFill{
+    color: white;
+    /* border:1px solid black; */
+}
+
+.feedback-table .feedback-table-body td:first-child{
+    background-color: #f2f2f2;
+}
+
+.feedback-table .feedback-table-body tr:first-child{
+    background-color: #f2f2f2;
+}

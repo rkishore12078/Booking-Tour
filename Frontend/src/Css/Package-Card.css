@@ -1,0 +1,33 @@
+.package-card-body{
+    padding:5px;
+    background-color: lightgoldenrodyellow;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+
+.package-card-outer{
+    width:290px;
+    height:200px;
+}
+
+.package-card-inner{
+    width:290px;
+    height:200px;
+    overflow:hidden;
+    object-fit:cover;
+    border-radius: 20px;
+}
+
+.location-image{
+    width:50px;
+    height:50px;
+    border-radius: 20px;
+}
+
+.location-text{
+    font-size: 15px;
+    font-weight: 500;
+}

@@ -1,0 +1,44 @@
+.addSpot{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.spot-body{
+    padding: 10px;
+    background-color: honeydew;
+    border-radius: 20px;
+    max-width: 600px;
+}
+
+.addSpot-filters{
+    display:flex;
+    justify-content: center;
+}
+
+.specialities{
+    display:flex;
+    justify-content: center;
+    margin:30px 0;
+    gap:20px;
+}
+
+.selected-specialities{
+    height:200px;
+    width:300px;
+    border:1px solid gray;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap:30px;
+    padding: 15px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.selected-speciality-names{
+    padding: 10px;
+    background-color: darkgrey;
+    border-radius: 15px;
+}

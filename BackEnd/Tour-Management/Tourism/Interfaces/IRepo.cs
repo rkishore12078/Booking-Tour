@@ -1,0 +1,10 @@
+﻿namespace Tourism.Interfaces
+{
+    public interface IRepo<T,K>:ICommonRepo<T,K>
+    {
+        public Task<T?> Add(T item);
+        public Task<T?> Update(T item);
+        public Task<T?> Delete(K id);
+        public Task<T?> Get(K id);
+    }
+}

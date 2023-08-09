@@ -1,0 +1,23 @@
+.traveller-header{
+    background-image: url();
+    height: 400px;
+    background-color: aqua;
+    margin:0;
+    padding-top: 150px;
+}
+.traveller-body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:40px;
+    padding: 20px;
+
+}
+
+.search-container-traveller{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width:90%;
+    margin: auto;
+}
